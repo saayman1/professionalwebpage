@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
-  middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  firstName: "Syeda",
+  middleName: "Ayman",
+  lastName: "Ahmed",
+  message: " Dedicated to leading data driven digital transformations and crafting intelligent solutions.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/saayman1",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.facebook.com/ayman.ahmed4",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "www.linkedin.com/in/ayman-ahmed-42664817b",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/s_ayman_ahmed01",
     },
   ],
 };
@@ -54,8 +50,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Having graduated from Carleton University in 2022, I'm now immersing myself in MIT's Applied Data Science Professional Certificate program. As a bilingual technical consultant with a keen focus on SaaS, I bring a deep understanding of both the SDLC and STLC. My love for software development goes hand in hand with my foundational expertise in machine learning and intelligent automation. Always eager to embrace new languages and tools, I'm dedicated to spearheading data driven digital solutions. I invite you to delve into my portfolio and learn more about the innovative solutions I've built",
+  resume: "https://drive.google.com/file/d/1mdB1TWKLxvX90xaVTwlQGFxxAnutNZHc/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,7 +62,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "saayman1", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -103,14 +99,14 @@ const skills = {
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "RPA Development", value: 65 },
+    { name: "Power Automate", value: 90 },
+    { name: "Power BI", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "UiPath value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "RPA Strategy", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
@@ -126,8 +122,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Digital Transformation or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "saayman1999@outlook.com",
 };
 
 const experiences = {
@@ -135,14 +131,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Digital and Emerging Technologies Consultant', EY// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'June 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Software Developer',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'May 2021 – March 2022',
     },
   ]
 }
