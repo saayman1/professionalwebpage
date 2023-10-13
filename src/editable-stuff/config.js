@@ -131,7 +131,8 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Digital and Emerging Technologies Consultant', EY// Here Add Company Name
+      role: 'Digital and Emerging Technologies Consultant', 
+      company: 'EY',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2022 – Present',
     },
