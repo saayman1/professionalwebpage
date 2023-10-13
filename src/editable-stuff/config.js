@@ -75,22 +75,22 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: "src/assets/img/Podcast Logo copy.png", 
+      img: require("src/assets/img/Podcast Logo copy.png"), 
       label: "First slide label", 
       paragraph: "Syrian Mock Refugee Camp." 
     },
     { 
-      img: "src/assets/img/Podcast Logo copy.png", 
+      img: require("src/assets/img/Podcast Logo copy.png"), 
       label: "Second slide label", 
       paragraph: "Thought Theory" 
     },
      { 
-      img: "src/assets/img/Podcast Logo copy.png", 
+      img: require("src/assets/img/Podcast Logo copy.png"), 
       label: "third slide label", 
       paragraph: "Orleans 150"  
     },
     { 
-      img: "src/assets/img/Podcast Logo copy.png", 
+      img: require("src/assets/img/Podcast Logo copy.png"), 
       label: "fourth slide label", 
       paragraph: "GCWCC Multicultural Workshops change later" 
     },
@@ -143,19 +143,19 @@ const experiences = {
     {
       role: 'Digital and Emerging Technologies Consultant', 
       company: 'EY',// Here Add Company Name
-      companylogo: 'src/assets/img/EY_logo_2019.svg.png',
+      companylogo: require('src/assets/img/EY_logo_2019.svg.png'),
       date: 'June 2022 – Present',
     },
     {
       role: 'Software Developer',
       company: 'Department of National Defence',
-      companylogo: 'src/assets/img/Department-of-National-Defense-Government-of-Canada.jpeg',
+      companylogo: require('src/assets/img/Department-of-National-Defense-Government-of-Canada.jpeg'),
       date: 'May 2021 – March 2022',
     },
     {
       role: 'Analyst/Tester', 
       company: 'Canada Revenue Agency',// Here Add Company Name
-      companylogo: 'src/assets/img/CRA-logo.png',
+      companylogo: require('src/assets/img/CRA-logo.png'),
       date: 'June 2019 – October 2019',
     },
   ]
