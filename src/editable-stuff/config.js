@@ -103,7 +103,7 @@ const skills = {
     { name: "Power Automate", value: 90 },
     { name: "Power BI", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "UiPath value: 80 },
+    { name: "UiPath value": 80 },
   ],
   softSkills: [
     { name: "RPA Strategy", value: 80 },
