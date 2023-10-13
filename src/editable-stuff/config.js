@@ -138,7 +138,7 @@ const experiences = {
     },
     {
       role: 'Software Developer',
-      company: "Department of National Defence".
+      company: "Department of National Defence",
       companylogo: "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Department_of_National_Defence_%28Canada%29.svg/2560px-Department_of_National_Defence_%28Canada%29.svg.png",
       date: 'May 2021 – March 2022',
     },
