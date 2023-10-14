@@ -72,8 +72,8 @@ const leadership = {
   show: true,
   heading: "Passion Projects",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
+    "When I'm not enjoying a game on my Nintendo Switch or spending time with family, I've been fortunate to blend my passions with purposeful endeavors. I've volunteered at the Sadaqa Food Bank, celebrated diverse cultures at United Way workshops, and co-hosted a podcast exploring transparency in reporting. While working on Andrew Leslie and Marie France Lalonde's Youth Council, my team was recognized with the Orleans 150 award for contribution to the community. Additionally, my professional team was honored by the Canadian Law Awards for technological innovation in 2022. Each experience has reinforced the importance of collaboration, strategy, and empathy in my professional journey.".
+    images: [
     { 
       img: require("src/assets/img/Podcast Logo copy.png"), 
       label: "First slide label", 
