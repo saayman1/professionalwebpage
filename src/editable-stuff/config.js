@@ -75,22 +75,22 @@ const leadership = {
     "When I'm not enjoying a game on my Nintendo Switch or spending time with family, I've been fortunate to blend my passions with purposeful endeavors. I've volunteered at the Sadaqa Food Bank, celebrated diverse cultures at United Way workshops, and co-hosted a podcast exploring transparency in reporting. While working on Andrew Leslie and Marie France Lalonde's Youth Council, my team was recognized with the Orleans 150 award for contribution to the community. Additionally, my professional team was honored by the Canadian Law Awards for technological innovation in 2022. Each experience has reinforced the importance of collaboration, strategy, and empathy in my professional journey.",
   images: [
     { 
-      img: require("src/assets/img/Podcast Logo copy.png"), 
+      img: require("../assets/img/Podcast Logo copy.png"), 
       label: "First slide label", 
       paragraph: "Syrian Mock Refugee Camp." 
     },
     { 
-      img: require("src/assets/img/Podcast Logo copy.png"), 
+      img: require("../assets/img/Podcast Logo copy.png"), 
       label: "Second slide label", 
       paragraph: "Thought Theory" 
     },
      { 
-      img: require("src/assets/img/Podcast Logo copy.png"), 
+      img: require("../assets/img/Podcast Logo copy.png"), 
       label: "third slide label", 
       paragraph: "Orleans 150"  
     },
     { 
-      img: require("src/assets/img/Podcast Logo copy.png"), 
+      img: require("../assets/img/Podcast Logo copy.png"), 
       label: "fourth slide label", 
       paragraph: "GCWCC Multicultural Workshops change later" 
     },
@@ -143,19 +143,19 @@ const experiences = {
     {
       role: 'Digital and Emerging Technologies Consultant', 
       company: 'EY',// Here Add Company Name
-      companylogo: require('src/assets/img/EY_logo_2019.svg.png'),
+      companylogo: require('../assets/img/EY_logo_2019.svg.png'),
       date: 'June 2022 – Present',
     },
     {
       role: 'Software Developer',
       company: 'Department of National Defence',
-      companylogo: require('src/assets/img/Department-of-National-Defense-Government-of-Canada.jpeg'),
+      companylogo: require('../assets/img/Department-of-National-Defense-Government-of-Canada.jpeg'),
       date: 'May 2021 – March 2022',
     },
     {
       role: 'Analyst/Tester', 
       company: 'Canada Revenue Agency',// Here Add Company Name
-      companylogo: require('src/assets/img/CRA-logo.png'),
+      companylogo: require('../assets/img/CRA-logo.png'),
       date: 'June 2019 – October 2019',
     },
   ]
