@@ -18,7 +18,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <Carousel>
             {img.map((value, index) => {
               return (
-                <Carousel.Item key={index}>
+                <Carousel.Item key={index}style={{ textAlign: "center" }}>
                   <img
                     className="d-block w-100"
                     src={value.img}
@@ -26,12 +26,10 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     width={imageSize.width}
                     height={imageSize.height}
                   />
-                  <Carousel.Caption>
-                    <h3>{value.label}</h3>
+                    <h3>style={{ marginTop: "10px" }}>{value.label}</h3>
                     <p>
                       {value.paragraph}
-                    </p>
-                  </Carousel.Caption>
+                    </p>{value.paragraph}</p>
                 </Carousel.Item>
               );
             })}
