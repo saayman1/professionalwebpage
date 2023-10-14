@@ -26,7 +26,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     width={imageSize.width}
                     height={imageSize.height}
                   />
-                    <h3>style={{ marginTop: "10px" }}>{value.label}</h3>
+                    <h3 style={{ marginTop: "10px" }}>{value.label}</h3>
                     <p>{value.paragraph}</p>
                 </Carousel.Item>
               );
