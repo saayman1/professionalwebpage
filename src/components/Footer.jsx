@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Footer = (props) => {
-  const bgColor = "#f5f5f5";  // Change this for background color
+  const bgColor = "#191717";  // Change this for background color
   const textColor = "#d7d4d4";  // Change this for text color
   const bgStyle = { backgroundColor: bgColor };
 
