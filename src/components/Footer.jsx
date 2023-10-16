@@ -10,18 +10,16 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-3 text-sm-center">
       <Container>
         {props.children}
-        with 
         <a
           rel="noopener"
           href="https://github.com/hashirshoaeb"
           aria-label="My GitHub"
           style={{ color: textColor }} // Change text color here
         > 
-          <span className="badge bg-dark text-sm" style={{ color: textColor }}>
+          <span className="badge bg-light text-sm" style={{ color: textColor }}>
             Hashir Shoaib
           </span>
-        </a>{" "}
-        using
+        </a>
       </Container>
     </footer>
   );
