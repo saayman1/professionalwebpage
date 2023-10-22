@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "www.linkedin.com/in/ayman-ahmed-42664817b",
+      url: "https://www.linkedin.com/in/ayman-ahmed-42664817b",
     },
     {
       image: "fa-twitter",
@@ -157,6 +157,12 @@ const experiences = {
       company: 'Canada Revenue Agency',// Here Add Company Name
       companylogo: require('../assets/img/CRA-logo.png'),
       date: 'June 2019 – October 2019',
+    },
+    {
+      role: 'Special Events Coordinator', 
+      company: 'Canada Revenue Agency',// Here Add Company Name
+      companylogo: require('../assets/img/CRA-logo.png'),
+      date: 'June 2018 – October 2018',
     },
   ]
 }
