@@ -26,17 +26,20 @@ const MainBody = React.forwardRef(
             </div>
           </Typist>
           <div className="p-5">
-            {icons.map((icon, index) => (
-              <a
-                key={`social-icon-${index}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
-              </a>
-            ))}
+            {icons.map((icon, index) => {
+                const iconClass = icon.image === "fa-envelope" ? "fas" : "fab";
+                return (
+                    <a
+                        key={`social-icon-${index}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={icon.url}
+                        aria-label={`My ${icon.image.split("-")[1]}`}
+                    >
+                        <i className={`${iconClass} ${icon.image}  fa-3x socialicons`} />
+                    </a>
+                );
+            })}
           </div>
           <a
             className="btn btn-outline-light btn-lg "
