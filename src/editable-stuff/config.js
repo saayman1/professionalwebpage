@@ -122,8 +122,8 @@ const skills = {
     { name: "Client Engagement", value: 85 },
     { name: "Data Visualization", value: 75 },
     { name: "AI Strategy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Technical Training and Guidance", value: 85 },
+    { name: "Process Optimization", value: 90 },
   ],
 };
 
