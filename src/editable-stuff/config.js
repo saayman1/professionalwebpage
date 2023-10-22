@@ -85,9 +85,9 @@ const leadership = {
       paragraph: "" 
     },
      { 
-      img: require("../assets/img/Podcast Logo copy.png"), 
-      label: "third slide label", 
-      paragraph: "Orleans 150"  
+      img: require("../assets/img/orleans_award.jpg"), 
+      label: "", 
+      paragraph: ""  
     },
     { 
       img: require("../assets/img/Podcast Logo copy.png"), 
