@@ -10,6 +10,7 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-3 text-sm-center">
       <Container>
         {props.children}
+        Web template made by 
         <a
           rel="noopener"
           href="https://github.com/hashirshoaeb"
