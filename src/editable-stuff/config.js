@@ -76,13 +76,13 @@ const leadership = {
   images: [
     { 
       img: require("../assets/img/syrian_refugee_fundraiser_slide.jpg"), 
-      label: "First slide label", 
-      paragraph: "Syrian Mock Refugee Camp." 
+      label: "", 
+      paragraph: "" 
     },
     { 
-      img: require("../assets/img/Podcast Logo copy.png"), 
-      label: "Second slide label", 
-      paragraph: "Thought Theory" 
+      img: require("../assets/img/podcast_slide.jpg"), 
+      label: "", 
+      paragraph: "" 
     },
      { 
       img: require("../assets/img/Podcast Logo copy.png"), 
