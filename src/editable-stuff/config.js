@@ -16,16 +16,16 @@ const mainBody = {
       url: "https://github.com/saayman1",
     },
     {
+      image: "fa-envelope",
+      url: "mailto:saayman1999@outlook.com",
+    },
+    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ayman-ahmed-42664817b",
     },
     {
       image: "fa-twitter",
       url: "https://twitter.com/s_ayman_ahmed01",
-    },
-    {
-      image: "fa-envelope",
-      url: "mailto:saayman1999@outlook.com",
     },
   ],
 };
