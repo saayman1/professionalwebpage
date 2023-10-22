@@ -16,10 +16,6 @@ const mainBody = {
       url: "https://github.com/saayman1",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/ayman.ahmed4",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ayman-ahmed-42664817b",
     },
