@@ -149,7 +149,7 @@ const experiences = {
     {
       role: 'Software Developer',
       company: 'Department of National Defence',
-      companylogo: require('../assets/img/Department-of-National-Defense-Government-of-Canada.png'),
+      companylogo: require('../assets/img/dnd.png'),
       date: 'May 2021 – March 2022',
     },
     {
