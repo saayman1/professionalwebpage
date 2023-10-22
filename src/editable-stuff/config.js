@@ -142,7 +142,7 @@ const experiences = {
   data: [
     {
       role: 'Digital and Emerging Technologies Consultant', 
-      company: 'EY',// Here Add Company Name
+      company: 'Ernst & Young (EY)',// Here Add Company Name
       companylogo: require('../assets/img/EY_logo_2019.svg.png'),
       date: 'June 2022 – Present',
     },
