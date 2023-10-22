@@ -90,9 +90,9 @@ const leadership = {
       paragraph: ""  
     },
     { 
-      img: require("../assets/img/Podcast Logo copy.png"), 
-      label: "fourth slide label", 
-      paragraph: "GCWCC Multicultural Workshops change later" 
+      img: require("../assets/img/workshop_slide.jpg"), 
+      label: "", 
+      paragraph: "" 
     },
   ],
   imageSize: {
