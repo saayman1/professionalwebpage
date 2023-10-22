@@ -1,21 +1,30 @@
 import React from 'react';
-import { Col } from "react-bootstrap";
+import ExperienceCard from "./ExperienceCard";
+import { Jumbotron } from './migration';
+import {
+  Container,
+  Row,
+} from "react-bootstrap";
 
-const ExperienceCard = ({ data }) => {
+const Experience = ({ experiences }) => {
   return (
-    <Col lg="6">
-      <div className="pb-5 text-center">
-        <img className=" bg-white mb-3" src={data.companylogo} alt={data.company} /> {/* Added the company name as alt text for the image */}
-        <p className="lead">
-          {data.role}
-          <br />
-          {data.company} {/* This line displays the company name */}
-          <br />
-          {data.date}
-        </p>
-      </div>
-    </Col>
+    <section className="section">
+      <Container>
+        <Jumbotron className="bg-white">
+          <h2 className="display-4 mb-5 text-center">
+            {experiences.heading}
+          </h2>
+          <Row className="justify-content-center">
+            {
+              experiences.data.map((data, index) => {
+                return <ExperienceCard key={index} data={data} />
+              })
+            }
+          </Row>
+        </Jumbotron>
+      </Container>
+    </section>
   );
 }
 
-export default ExperienceCard;
+export default Experience;
