@@ -23,6 +23,10 @@ const mainBody = {
       image: "fa-twitter",
       url: "https://twitter.com/s_ayman_ahmed01",
     },
+    {
+      image: "fa-envelope",
+      url: "mailto:saayman1999@outlook.com",
+    },
   ],
 };
 
