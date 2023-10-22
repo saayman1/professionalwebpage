@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Having recently graduated from Carleton University with a degree in Cognitive Science, I'm now immersing myself in MIT's Applied Data Science Professional Certificate program. As a bilingual technical consultant with a keen focus on SaaS, I bring a deep understanding of both the SDLC and STLC. My love for software development goes hand in hand with my foundational expertise in machine learning and intelligent automation. Always eager to embrace new languages and tools, I'm dedicated to spearheading data driven digital solutions. I invite you to delve into my portfolio and learn more about the innovative solutions I've built.",
-  resume: "https://drive.google.com/file/d/1mdB1TWKLxvX90xaVTwlQGFxxAnutNZHc/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1tubh3g4vypCKdioUO0YtrdwqA4qe4AMy/view?usp=share_link",
 };
 
 // PROJECTS SECTION
