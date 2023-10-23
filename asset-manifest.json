@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.ebcfe46b.js",
-    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/workshop_slide.jpg": "/home/static/media/workshop_slide.2d68f1ae379ffb789f22.jpg",
-    "static/media/syrian_refugee_fundraiser_slide.jpg": "/home/static/media/syrian_refugee_fundraiser_slide.9b98482c95013ed788c7.jpg",
-    "static/media/podcast_slide.jpg": "/home/static/media/podcast_slide.b0f5d413eac436d72b6d.jpg",
-    "static/media/orleans_award.jpg": "/home/static/media/orleans_award.6dbbdcf11800b38f0741.jpg",
-    "static/media/CRA-logo.png": "/home/static/media/CRA-logo.ac26fcc6494df7e7cd69.png",
-    "static/media/dnd_finale_final_4.jpg": "/home/static/media/dnd_finale_final_4.20acbebe00e73f47b4f5.jpg",
-    "index.html": "/home/index.html",
-    "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.ebcfe46b.js.map": "/home/static/js/main.ebcfe46b.js.map",
-    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/saayman1/static/css/main.fe927caf.css",
+    "main.js": "/saayman1/static/js/main.d1a7ba73.js",
+    "static/js/787.4b24f717.chunk.js": "/saayman1/static/js/787.4b24f717.chunk.js",
+    "static/media/workshop_slide.jpg": "/saayman1/static/media/workshop_slide.2d68f1ae379ffb789f22.jpg",
+    "static/media/syrian_refugee_fundraiser_slide.jpg": "/saayman1/static/media/syrian_refugee_fundraiser_slide.9b98482c95013ed788c7.jpg",
+    "static/media/podcast_slide.jpg": "/saayman1/static/media/podcast_slide.b0f5d413eac436d72b6d.jpg",
+    "static/media/orleans_award.jpg": "/saayman1/static/media/orleans_award.6dbbdcf11800b38f0741.jpg",
+    "static/media/CRA-logo.png": "/saayman1/static/media/CRA-logo.ac26fcc6494df7e7cd69.png",
+    "static/media/dnd_finale_final_4.jpg": "/saayman1/static/media/dnd_finale_final_4.20acbebe00e73f47b4f5.jpg",
+    "index.html": "/saayman1/index.html",
+    "main.fe927caf.css.map": "/saayman1/static/css/main.fe927caf.css.map",
+    "main.d1a7ba73.js.map": "/saayman1/static/js/main.d1a7ba73.js.map",
+    "787.4b24f717.chunk.js.map": "/saayman1/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.ebcfe46b.js"
+    "static/js/main.d1a7ba73.js"
   ]
 }
