@@ -15,38 +15,31 @@ const dummyProject = {
 };
 const API = "https://api.github.com";
 
-const Project = ({ heading, username, length, specfic }) => {
+const Project = ({ heading, username, length, specificRepos }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
-  const specficReposAPI = `${API}/repos/${username}`;
-  const dummyProjectsArr = new Array(length + specfic.length).fill(dummyProject);
+  const dummyProjectsArr = new Array(length).fill(dummyProject);
 
   const [projectsArray, setProjectsArray] = useState([]);
 
   const fetchRepos = useCallback(async () => {
-    let repoList = new Set(); // Use a Set to store unique repositories
-
     try {
       // Getting all repos
       const response = await axios.get(allReposAPI);
 
+      // Filter out specified repos
+      const filteredRepos = response.data.filter(
+        (repo) => !specificRepos.includes(repo.name)
+      );
+
       // Slicing to the length
-      response.data.slice(0, length).forEach((repo) => repoList.add(repo));
-
-      // Adding specified repos
-      for (let repoName of specfic) {
-        const response = await axios.get(`${specficReposAPI}/${repoName}`);
-        repoList.add(response.data);
-      }
-
-      // Converting the Set back to an array
-      const uniqueRepos = Array.from(repoList);
+      const slicedRepos = filteredRepos.slice(0, length);
 
       // Setting projectsArray
-      setProjectsArray(uniqueRepos);
+      setProjectsArray(slicedRepos);
     } catch (error) {
       console.error(error.message);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  }, [allReposAPI, length, specificRepos]);
 
   useEffect(() => {
     fetchRepos();
