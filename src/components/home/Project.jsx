@@ -14,37 +14,35 @@ const dummyProject = {
   pushed_at: null,
 };
 const API = "https://api.github.com";
-// const gitHubQuery = "/repos?sort=updated&direction=desc";
-// const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
 const Project = ({ heading, username, length, specfic }) => {
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
-  const dummyProjectsArr = new Array(length + specfic.length).fill(
-    dummyProject
-  );
+  const dummyProjectsArr = new Array(length + specfic.length).fill(dummyProject);
 
   const [projectsArray, setProjectsArray] = useState([]);
 
   const fetchRepos = useCallback(async () => {
-    let repoList = [];
+    let repoList = new Set(); // Use a Set to store unique repositories
+
     try {
-      // getting all repos
+      // Getting all repos
       const response = await axios.get(allReposAPI);
-      // slicing to the length
-      repoList = [...response.data.slice(0, length)];
-      // adding specified repos
-      try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
-        }
-      } catch (error) {
-        console.error(error.message);
+
+      // Slicing to the length
+      response.data.slice(0, length).forEach((repo) => repoList.add(repo));
+
+      // Adding specified repos
+      for (let repoName of specfic) {
+        const response = await axios.get(`${specficReposAPI}/${repoName}`);
+        repoList.add(response.data);
       }
-      // setting projectArray
-      // TODO: remove the duplication.
-      setProjectsArray(repoList);
+
+      // Converting the Set back to an array
+      const uniqueRepos = Array.from(repoList);
+
+      // Setting projectsArray
+      setProjectsArray(uniqueRepos);
     } catch (error) {
       console.error(error.message);
     }
@@ -61,19 +59,19 @@ const Project = ({ heading, username, length, specfic }) => {
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
-              <ProjectCard
-                key={`project-card-${index}`}
-                id={`project-card-${index}`}
-                value={project}
-              />
-            ))
+                <ProjectCard
+                  key={`project-card-${index}`}
+                  id={`project-card-${index}`}
+                  value={project}
+                />
+              ))
             : dummyProjectsArr.map((project, index) => (
-              <ProjectCard
-                key={`dummy-${index}`}
-                id={`dummy-${index}`}
-                value={project}
-              />
-            ))}
+                <ProjectCard
+                  key={`dummy-${index}`}
+                  id={`dummy-${index}`}
+                  value={project}
+                />
+              ))}
         </Row>
       </Container>
     </Jumbotron>
