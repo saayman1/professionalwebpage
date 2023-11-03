@@ -147,7 +147,7 @@ const experiences = {
       date: 'June 2022 – November 2023',
     },
     {
-      role: 'Software Developer',
+      role: 'Jr Software Developer',
       company: 'Department of National Defence',
       companylogo: require('../assets/img/dnd_finale_final_4.jpg'),
       date: 'May 2021 – March 2022',
