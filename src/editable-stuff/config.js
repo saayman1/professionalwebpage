@@ -144,7 +144,7 @@ const experiences = {
       role: 'Digital and Emerging Technologies Consultant', 
       company: 'Ernst & Young (EY)',// Here Add Company Name
       companylogo: require('../assets/img/EY_logo_2019.svg.png'),
-      date: 'June 2022 – Present',
+      date: 'June 2022 – November 2023',
     },
     {
       role: 'Software Developer',
