@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "https://media.licdn.com/dms/image/D4E03AQFqEuaj7Ok_Aw/profile-displayphoto-shrink_200_200/0/1693523279605?e=1702512000&v=beta&t=7b64V47AH6dDauj84_IgfGT-TWfTZNFLiYUukbAt1gs",
+  imageLink: "src/assets/img/prof pic.jpeg",
   imageSize: 375,
   message:
     "Having recently graduated from Carleton University with a degree in Cognitive Science, I'm now immersing myself in MIT's Applied Data Science Professional Certificate program. As a bilingual technical consultant with a keen focus on SaaS, I bring a deep understanding of both the SDLC and STLC. My love for software development goes hand in hand with my foundational expertise in machine learning and intelligent automation. Always eager to embrace new languages and tools, I'm dedicated to spearheading data driven digital solutions. I invite you to delve into my portfolio and learn more about the innovative solutions I've built.",
