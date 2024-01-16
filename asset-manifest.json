@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/saayman1/static/css/main.fe927caf.css",
-    "main.js": "/saayman1/static/js/main.cb16a349.js",
+    "main.js": "/saayman1/static/js/main.4f56f023.js",
     "static/js/787.4b24f717.chunk.js": "/saayman1/static/js/787.4b24f717.chunk.js",
     "static/media/workshop_slide.jpg": "/saayman1/static/media/workshop_slide.2d68f1ae379ffb789f22.jpg",
     "static/media/syrian_refugee_fundraiser_slide.jpg": "/saayman1/static/media/syrian_refugee_fundraiser_slide.9b98482c95013ed788c7.jpg",
     "static/media/podcast_slide.jpg": "/saayman1/static/media/podcast_slide.b0f5d413eac436d72b6d.jpg",
     "static/media/orleans_award.jpg": "/saayman1/static/media/orleans_award.6dbbdcf11800b38f0741.jpg",
     "static/media/CRA-logo.png": "/saayman1/static/media/CRA-logo.ac26fcc6494df7e7cd69.png",
+    "static/media/prof_pic.jpeg": "/saayman1/static/media/prof_pic.07cb09d921bec42bd15d.jpeg",
     "static/media/dnd_finale_final_4.jpg": "/saayman1/static/media/dnd_finale_final_4.20acbebe00e73f47b4f5.jpg",
     "index.html": "/saayman1/index.html",
     "main.fe927caf.css.map": "/saayman1/static/css/main.fe927caf.css.map",
-    "main.cb16a349.js.map": "/saayman1/static/js/main.cb16a349.js.map",
+    "main.4f56f023.js.map": "/saayman1/static/js/main.4f56f023.js.map",
     "787.4b24f717.chunk.js.map": "/saayman1/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.cb16a349.js"
+    "static/js/main.4f56f023.js"
   ]
 }
