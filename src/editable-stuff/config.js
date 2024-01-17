@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/prof_pic.jpeg"),
   imageSize: 375,
   message:
-    "Since graduating from Carleton University in Cognitive Science in 2023, I've broadened my expertise with MIT's Applied Data Science Professional Certificate. Balancing my academic pursuits with family caregiving responsibilities, I'm now re-entering the professional sphere with renewed vigor and inspiration.\n\n As a bilingual technical consultant, I excel in both the technical and functional realms of business, blending a deep understanding of the SDLC and STLC with a passion for software development. My foundation in machine learning and intelligent automation, coupled with an eagerness to embrace new languages and tools, drives me to spearhead innovative, data-driven digital solutions.",
+    "Since graduating from Carleton University in Cognitive Science in 2023, I've broadened my expertise with MIT's Applied Data Science Professional Certificate. Balancing my academic pursuits with family caregiving responsibilities, I am re-entering the professional sphere with renewed vigor and inspiration. As a bilingual technical consultant, I excel in both the technical and functional realms of business, blending a deep understanding of the SDLC and STLC with a passion for software development. My foundation in machine learning and intelligent automation, coupled with an eagerness to embrace new languages and tools, drives me to spearhead innovative, data-driven digital solutions.",
   resume: "https://drive.google.com/file/d/1moHlfsj1AlJmZvE_X52bHBF-bc28VNHe/view?usp=sharing",
 };
 
