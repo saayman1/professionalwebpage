@@ -90,7 +90,7 @@ const leadership = {
       paragraph: ""  
     },
     { 
-      img: require("../assets/img/mw_slide.png"), 
+      img: require("../assets/img/mul_w_slide.png"), 
       label: "", 
       paragraph: "" 
     },
