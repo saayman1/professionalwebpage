@@ -80,7 +80,7 @@ const leadership = {
       paragraph: "" 
     },
     { 
-      img: require("../assets/img/podcast_slide.jpg"), 
+      img: require("../assets/img/thought_theory_slide.png"), 
       label: "", 
       paragraph: "" 
     },
