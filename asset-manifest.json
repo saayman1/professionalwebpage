@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/saayman1/static/css/main.fe927caf.css",
-    "main.js": "/saayman1/static/js/main.a7ba821a.js",
+    "main.js": "/saayman1/static/js/main.d5e820da.js",
     "static/js/787.4b24f717.chunk.js": "/saayman1/static/js/787.4b24f717.chunk.js",
     "static/media/slide_replace_mw.png": "/saayman1/static/media/slide_replace_mw.2c531a2bbe488eb67500.png",
     "static/media/150slide.png": "/saayman1/static/media/150slide.cdd055a9d7d64cdb6177.png",
@@ -12,11 +12,11 @@
     "static/media/dnd_finale_final_4.jpg": "/saayman1/static/media/dnd_finale_final_4.20acbebe00e73f47b4f5.jpg",
     "index.html": "/saayman1/index.html",
     "main.fe927caf.css.map": "/saayman1/static/css/main.fe927caf.css.map",
-    "main.a7ba821a.js.map": "/saayman1/static/js/main.a7ba821a.js.map",
+    "main.d5e820da.js.map": "/saayman1/static/js/main.d5e820da.js.map",
     "787.4b24f717.chunk.js.map": "/saayman1/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.a7ba821a.js"
+    "static/js/main.d5e820da.js"
   ]
 }
