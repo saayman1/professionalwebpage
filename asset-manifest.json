@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/saayman1/static/css/main.fe927caf.css",
-    "main.js": "/saayman1/static/js/main.6389df39.js",
+    "main.js": "/saayman1/static/js/main.a7ba821a.js",
     "static/js/787.4b24f717.chunk.js": "/saayman1/static/js/787.4b24f717.chunk.js",
-    "static/media/mul_w_slide.png": "/saayman1/static/media/mul_w_slide.247517a4a5a810e3517d.png",
+    "static/media/slide_replace_mw.png": "/saayman1/static/media/slide_replace_mw.2c531a2bbe488eb67500.png",
     "static/media/150slide.png": "/saayman1/static/media/150slide.cdd055a9d7d64cdb6177.png",
     "static/media/syr_ref_slide.png": "/saayman1/static/media/syr_ref_slide.23e1735019f1aefeaddd.png",
     "static/media/thought_theory_slide.png": "/saayman1/static/media/thought_theory_slide.681f05ea249ed6a69116.png",
@@ -12,11 +12,11 @@
     "static/media/dnd_finale_final_4.jpg": "/saayman1/static/media/dnd_finale_final_4.20acbebe00e73f47b4f5.jpg",
     "index.html": "/saayman1/index.html",
     "main.fe927caf.css.map": "/saayman1/static/css/main.fe927caf.css.map",
-    "main.6389df39.js.map": "/saayman1/static/js/main.6389df39.js.map",
+    "main.a7ba821a.js.map": "/saayman1/static/js/main.a7ba821a.js.map",
     "787.4b24f717.chunk.js.map": "/saayman1/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.6389df39.js"
+    "static/js/main.a7ba821a.js"
   ]
 }
