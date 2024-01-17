@@ -75,7 +75,7 @@ const leadership = {
     "When I'm not enjoying a game on my Nintendo Switch or spending time with family, I've been fortunate to blend my passions with purposeful endeavors. I've volunteered at the Sadaqa Food Bank, celebrated diverse cultures at United Way workshops, and co-hosted a podcast exploring transparency in reporting. While working on Andrew Leslie and Marie France Lalonde's Youth Council, my team was recognized with the Orleans 150 award for contribution to the community. Each experience has reinforced the importance of collaboration, strategy, and empathy in my professional journey.",
   images: [
     { 
-      img: require("../assets/img/syrian_refugee_fundraiser_slide.jpg"), 
+      img: require("../assets/img/sr_slide.png"), 
       label: "", 
       paragraph: "" 
     },
