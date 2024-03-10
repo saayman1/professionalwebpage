@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/nheadshot.png"),
   imageSize: 375,
   message:
-    "Since graduating from Carleton University in Cognitive Science in 2023, I've broadened my expertise with MIT's Applied Data Science Professional Certificate. Balancing my academic pursuits with family caregiving responsibilities, I am re-entering the professional sphere with renewed vigor and inspiration. As a bilingual technical consultant, I excel in both the technical and functional realms of business, blending a deep understanding of the SDLC and STLC with a passion for software development. My foundation in machine learning and intelligent automation, coupled with an eagerness to embrace new languages and tools, drives me to spearhead innovative, data-driven digital solutions.",
+    "As a bilingual technology consultant with over 3 years of experience working with the software development life cycle, I am very comfortable identifying opportunities for automation. My expertise spans software development, machine learning, and intelligent automation. Recognized with accolades from the Canadian Law Awards for delivering effective RPA solutions using Power Automate, I excel in creating data-driven insights and predictive models. Proficient in adopting new languages and tools, I am committed to driving digital transformations.",
   resume: "https://drive.google.com/file/d/1moHlfsj1AlJmZvE_X52bHBF-bc28VNHe/view?usp=sharing",
 };
 
